@@ -9,7 +9,7 @@
 
 #convert all shapefiles
 for shapefile in *.geojson; do
-  geo2topo -o topo_$shapefile.json $shapefile
+  geo2topo -o `basename -s .geojson topo_$shapefile`.json $shapefile
 done
 
 #Then do a batch rename to remove .geojson.json
