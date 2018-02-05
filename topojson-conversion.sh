@@ -12,6 +12,8 @@ for shapefile in *.geojson; do
   geo2topo -o topo_$shapefile.json $shapefile
 done
 
+#Then do a batch rename to remove .geojson.json
+
 # You'd probably want to `mv *.topojson [path-to-git-repo]/` at this point
 # so you could commit the file to GitHub
 # Happy mapping!
