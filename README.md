@@ -12,6 +12,6 @@ Vector > Data management tools> Split vector layer. Choose lad11cd.
 Choose the folder to save files.
 
 
-[Batch convert to geojson](https://gist.github.com/benbalter/5858851). Add in the source projection `-s_srs EPSG:27700`
+[Batch convert to geojson](https://gist.github.com/benbalter/5858851). Add in the source projection `-s_srs EPSG:27700`. [Helpful tool](https://dragons8mycat.com/2014/04/29/gis-tips-how-to-find-the-epsg-code-of-your-shapefile/) to find out the projection of your shapefile.
 
 [Batch convert to topojson](https://gis.stackexchange.com/questions/75561/batch-conversion-of-shapefiles-to-topojson)
